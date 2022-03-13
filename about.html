@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="朱可心">
+    <title>201806061427朱可心</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body background="images/BG.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;">
+<!--页眉-->
+<div id="header-wrapper">
+    <!--网站logo-->
+    <header class="container">
+        <div id="logo">
+            <a href="index.html"><h1>动物世界</h1></a><!--在<a>中使用target="_blank"可在新窗口中打开-->
+        </div>
+        <div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="站内搜索"><input type="submit" value="搜索">
+            </form>
+        </div>
+    </header>
+    <!--导航菜单-->
+    <div id="nav">
+        <nav class="container">
+            <ul><!--inline-block水平呈现要去掉前一个元素结束标记和后一个元素开始标记间的换行符和空格-->
+                <li><a href="index.html">首页</a></li><li>
+                    <a href="category.html">动物分类</a><ul>
+                    <li><a href="#">哺乳动物</a></li><li>
+                    <a href="#">爬行动物</a></li><li>
+                    <a href="#">两栖动物</a></li><li>
+                    <a href="#">鸟类</a></li><li>
+                    <a href="#">鱼类</a></li><li>
+                    <a href="#">无脊椎动物</a></li>
+                </ul></li><li>
+                <a href="specials.html">动物记录</a></li><li>
+                <a href="contact1.html">联系我们</a></li><li>
+                <a href="about.html">关于我们</a></li>
+            </ul>
+            <div id="menu-logo"><a href="cart1.html">收藏夹</a></div>
+        </nav>
+    </div>
+</div>
+<!--内容-->
+<div id="content-wrapper" class="container">
+    <!-- -->
+    <!--左边内容区-->
+    <article>
+        <!--面包屑导航-->
+        <section class="crumb-nav">您现在的位置：<a href="index.html">首页</a>&gt;&gt;关于我们</section>
+        <section id="video">
+            <h2 id="title9">关于我们</h2>
+            <p>我们通过收集与记录地球上动物和生态系统的详细信息,来展示这个令人惊叹的自然世界,运用网络的力量将关爱动物和环境保护意识,更广泛的传播,期望有更多的人加入到热爱和保护自然环境的家庭中。</p>
+            <p>我们发展的未来寄希望于越来越多的支持者和参与者,欢迎贡献您宝贵的动物界物种资料,用以完善我们的资源信息系统。大家在一起分享奇妙的动物世界的同时,帮助我们成长。</p>
+            <div class="video">
+                <video controls="controls" autoplay="autoplay" width="600px">
+                    <source src="images/about.mp4" type="video/mp4">
+                    <source src="images/about.webm" type="video/webm">
+                    <source src="images/about.ogv" type="video/ogv">
+                    <p>您的浏览器不支持video元素。</p>
+                </video>
+            </div>
+        </section>
+    </article>
+    <!--右边内容区-->
+    <aside>
+        <!--新闻-->
+        <section id="best-selling">
+            <h2 id="title7">新闻</h2>
+            <ul>
+                <li><a class="selling" href="#">萌宝大熊猫“喜乐”入住天津动物园</a>
+                    <div class="curr">
+                        <div class="p-img">
+                            <a title="萌宝大熊猫“喜乐”入住天津动物园" href="#">
+                                <img width="80" height="80" src="images/news1.jpg">
+                            </a>
+                        </div>
+                        <div class="p-name">
+                            <a title="萌宝大熊猫“喜乐”入住天津动物园" href="#">萌宝大熊猫“喜乐”入住天津动物园</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a class="selling" href="#">温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧</a>
+                    <div class="curr">
+                        <div class="p-img">
+                            <a title="温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧" href="#">
+                                <img width="80" height="80" src="images/news2.jpg">
+                            </a>
+                        </div>
+                        <div class="p-name">
+                            <a title="温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧" href="#">温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="border"><img src="images/border.gif" alt="分隔线" /></div>
+        <!--动物知识-->
+        <section class="aside-section">
+            <h2 id="title4">动物知识</h2>
+            <ul>
+                <li><a href="category.html">什么是动物相?</a></li>
+                <li><a href="category.html">寒武纪－奥陶纪灭绝事件</a></li>
+                <li><a href="category.html">动物的繁殖与发育</a></li>
+                <li><a href="category.html">动物的特征</a></li>
+                <li><a href="category.html">动物的起源</a></li>
+            </ul>
+        </section>
+        <!--学者专栏-->
+        <section class="aside-section">
+            <h2 id="title5">学者专栏</h2>
+            <ul>
+                <li><a href="#">分享：川滇交界，龙华古镇</a></li>
+                <li><a href="#">下口鲶，也叫琵琶鱼、清道夫</a></li>
+                <li><a href="#">《入侵鱼之清道夫》是怎么样的</a></li>
+                <li><a href="#">中国动物园行业处中低端</a></li>
+            </ul>
+        </section>
+        <div class="border"><img src="images/border.gif" alt="分隔线" /></div>
+        <!--寄语-->
+        <section class="about">
+            <h2 id="title6">寄语</h2>
+            <img src="images/about.gif" alt="寄语">
+            <p>公众参与是一个生态保护计划成功的基石。</p>
+            <p>自然是我们最宝贵的财富，教育和宣传会创造一个更加美好的未来。</p>
+            <p>你不必远离家乡，灵感来自于大自然。</p>
+            <p>即使一个人欣赏大自然，也令人振奋。</p>
+            <p>野生动物与生存环境的摄影和纪录片，对人类提高自然世界的认识和保护意识发挥了关键作用。</p>
+            <p>人类绝不能忽视他们对自然世界繁荣的重要性。</p>
+            <p>每个人都应该花一点点的时间去欣赏和享受自然的世界。</p>
+        </section>
+    </aside>
+</div>
+<!--页脚-->
+<div id="footer-wrapper">
+    <footer class="container">
+        <section>
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我们</a>
+            <a href="#">在线留言</a>
+            <a href="#">社交平台</a>
+            <a href="contact1.html">联系我们</a>
+        </section>
+    </footer>
+</div>
+<!--版权标志-->
+<section id="copyright" class="container">
+    Copyright © <a href="index.html">动物世界</a> 2012-2016 iltaw.com, All Rights Reserved 法律声明 | 版权所有
+</section>
+</body>
+</html>

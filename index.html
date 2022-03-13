@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="朱可心">
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>201806061427朱可心</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body background="images/BG.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;">
+<!--页眉-->
+<div id="header-wrapper">
+    <!--网站logo-->
+    <header class="container">
+        <div id="logo">
+            <a href="index.html"><h1>动物世界</h1></a><!--在<a>中使用target="_blank"可在新窗口中打开-->
+        </div>
+        <div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="站内搜索"><input type="submit" value="搜索">
+            </form>
+        </div>
+    </header>
+    <!--导航菜单-->
+    <div id="nav">
+        <nav class="container">
+            <ul><!--inline-block水平呈现要去掉前一个元素结束标记和后一个元素开始标记间的换行符和空格-->
+                <li><a href="index.html">首页</a></li><li>
+                <a href="category.html">动物分类</a><ul>
+                    <li><a href="#">哺乳动物</a></li><li>
+                    <a href="#">爬行动物</a></li><li>
+                    <a href="#">两栖动物</a></li><li>
+                    <a href="#">鸟类</a></li><li>
+                    <a href="#">鱼类</a></li><li>
+                    <a href="#">无脊椎动物</a></li>
+                </ul></li><li>
+                <a href="specials.html">动物记录</a></li><li>
+                <a href="contact1.html">联系我们</a></li><li>
+                <a href="about.html">关于我们</a></li>
+            </ul>
+            <div id="displaydate"></div>
+            <div id="displaytime"></div>
+            <div id="menu-logo"><a href="cart1.html">收藏夹</a></div>
+        </nav>
+    </div>
+</div>
+<!--内容-->
+<div id="content-wrapper" class="container">
+    <!-- -->
+    <!--左边内容区-->
+    <article>
+        <!--图片切换广告-->
+        <div id="adv">
+            <dl>
+                <dt>
+                    <a href="#" id="a1">1</a>
+                    <a href="#" id="a2">2</a>
+                    <a href="#" id="a3">3</a>
+                    <a href="#" id="a4">4</a>
+                </dt>
+                <dd>
+                    <a href="#"><img src="images/b-ad1.jpg" id="badimg" alt="广告"></a>
+                </dd>
+            </dl>
+        </div>
+        <!--热门-->
+        <section>
+            <h2 id="title">热门</h2>
+            <section class="recommend">
+                <h3>当海豹对上章鱼</h3>
+                <a href="#"><img src="images/prod2.jpg" alt="HTML5权威指南"></a>
+                <div class="recommend-content">
+                    <p>在澳洲维多利亚省（Victoria）的某座码头附近潜水时，我遇到一只年轻的非洲毛皮海狮正在猎食大型章鱼，它抓住章鱼的
+                        一只触手、扯下一大块肉，然后再回头咬住章鱼的头（可能是要让章鱼昏过去），又撕下一大口。
+                        Photograph by Phil Davison (摄影：Photograph by Phil Davison)
+                    </p>
+                </div>
+                <div class="cartmore">
+                    <a class="cart" href="cart1.html">加入收藏夹</a>
+                    <a class="more" href="details.html">详细内容</a>
+                </div>
+            </section>
+            <section class="recommend">
+                <h3>动弹不得</h3>
+                <a href="#"><img src="images/prod3.jpg" alt="JavaScript权威指南"></a>
+                <div class="recommend-content">
+                    <p>我们在马赛马拉国家保护区（Maasai Mara National Reserve）参加猎游时，遇到母猎豹娜拉夏（Narasha）正在教它的
+                        两只幼豹如何杀死猎物。那头高角羚吓得动弹不得，任凭宰割。这张照片捕捉到无助的高角羚彷佛居高临下的一瞬间，时间
+                        彷佛凝固了，画面中有股沉静而残酷的气息。(摄影：Alison Buttigieg)
+                    </p>
+
+                </div>
+                <div class="cartmore">
+                    <a class="cart" href="cart1.html">加入收藏夹</a>
+                    <a class="more" href="details.html">详细内容</a>
+                </div>
+            </section>
+        </section>
+        <!--百兽之王-->
+        <section class="article-section">
+            <h2 id="title2">百兽之王</h2>
+            <section>
+                <h3>狮子的威仪</h3>
+                <div class="effect-1">
+                    <div class="image-box">
+                        <img src="images/prod4.jpg" alt="狮子的威仪">
+                    </div>
+                    <div class="text-desc">
+                        <h3>狮子的威仪</h3>
+                        <p>《<mark>HTML5</mark>+CSS3从入门到精通》通过基础知识+中小实例+综合实例的方式，讲述了用<mark>HTML5</mark>
+                            +CSS设计构建网站的必备知识，性对于权威指南、高级程序设计、开发指南同类图书，本书是一本适合快速入手的自学教程。
+                        </p>
+                        <a class="btn" href="cart1.html">加入收藏夹</a>
+                        <a class="btn" href="details.html">详细内容</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>大猫伸懒腰</h3>
+                <div class="effect-1">
+                    <div class="image-box">
+                        <img src="images/prod5.jpg" alt="大猫伸懒腰">
+                    </div>
+                    <div class="text-desc">
+                        <h3>大猫伸懒腰</h3>
+                        <p>《响应式web设计:<mark>HTML5</mark>和CSS3实战》将当前Web设计中热门的响应式设计技术与<mark>HTML5</mark>
+                            和CSS3结合起来，为读者全面深入地讲解了针对各种屏幕大小设计和开发现代网站的各种技术。《响应式web设计:
+                            <mark>HTML5</mark>和CSS3实战》适合各个层次的Web开发和设计人员阅读。
+                        </p>
+                        <a class="btn" href="cart1.html">加入收藏夹</a>
+                        <a class="btn" href="details.html">详细内容</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--动物地理-->
+        <section class="article-section">
+            <h2 id="title3">动物地理</h2>
+            <section>
+                <img class="promotion" src="images/map.jpg" alt="动物地理">
+            </section>
+        </section>
+    </article>
+    <!--右边内容区-->
+    <aside>
+        <!--新闻-->
+        <section id="best-selling">
+            <h2 id="title7">新闻</h2>
+            <ul>
+                <li><a class="selling" href="#">萌宝大熊猫“喜乐”入住天津动物园</a>
+                    <div class="curr">
+                        <div class="p-img">
+                            <a title="萌宝大熊猫“喜乐”入住天津动物园" href="#">
+                                <img width="80" height="80" src="images/news1.jpg">
+                            </a>
+                        </div>
+                        <div class="p-name">
+                            <a title="萌宝大熊猫“喜乐”入住天津动物园" href="#">萌宝大熊猫“喜乐”入住天津动物园</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a class="selling" href="#">温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧</a>
+                    <div class="curr">
+                        <div class="p-img">
+                            <a title="温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧" href="#">
+                                <img width="80" height="80" src="images/news2.jpg">
+                            </a>
+                        </div>
+                        <div class="p-name">
+                            <a title="温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧" href="#">温州海域海蜇几乎绝迹 水生野生动物保护境况堪忧</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="border"><img src="images/border.gif" alt="分隔线" /></div>
+        <!--动物知识-->
+        <section class="aside-section">
+            <h2 id="title4">动物知识</h2>
+            <ul>
+                <li><a href="category.html">什么是动物相?</a></li>
+                <li><a href="category.html">寒武纪－奥陶纪灭绝事件</a></li>
+                <li><a href="category.html">动物的繁殖与发育</a></li>
+                <li><a href="category.html">动物的特征</a></li>
+                <li><a href="category.html">动物的起源</a></li>
+            </ul>
+        </section>
+        <!--学者专栏-->
+        <section class="aside-section">
+            <h2 id="title5">学者专栏</h2>
+            <ul>
+                <li><a href="#">分享：川滇交界，龙华古镇</a></li>
+                <li><a href="#">下口鲶，也叫琵琶鱼、清道夫</a></li>
+                <li><a href="#">《入侵鱼之清道夫》是怎么样的</a></li>
+                <li><a href="#">中国动物园行业处中低端</a></li>
+            </ul>
+        </section>
+        <div class="border"><img src="images/border.gif" alt="分隔线" /></div>
+        <!--寄语-->
+        <section class="about">
+            <h2 id="title6">寄语</h2>
+            <img src="images/about.gif" alt="寄语">
+            <p>公众参与是一个生态保护计划成功的基石。</p>
+            <p>自然是我们最宝贵的财富，教育和宣传会创造一个更加美好的未来。</p>
+            <p>你不必远离家乡，灵感来自于大自然。</p>
+            <p>即使一个人欣赏大自然，也令人振奋。</p>
+            <p>野生动物与生存环境的摄影和纪录片，对人类提高自然世界的认识和保护意识发挥了关键作用。</p>
+            <p>人类绝不能忽视他们对自然世界繁荣的重要性。</p>
+            <p>每个人都应该花一点点的时间去欣赏和享受自然的世界。</p>
+        </section>
+    </aside>
+</div>
+<!--页脚-->
+<div id="footer-wrapper">
+    <footer class="container">
+        <section>
+            <a href="index.html">首页</a>
+            <a href="about.html">关于我们</a>
+            <a href="#">在线留言</a>
+            <a href="#">社交平台</a>
+            <a href="contact1.html">联系我们</a>
+        </section>
+    </footer>
+</div>
+<!--版权标志-->
+<section id="copyright" class="container">
+    Copyright © <a href="index.html">动物世界</a> 2012-2016 iltaw.com, All Rights Reserved 法律声明 | 版权所有
+</section>
+</body>
+</html>
